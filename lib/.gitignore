@@ -1,0 +1,6 @@
+/target/debug
+/target/release/*
+!/target/release/libnucleus.d
+!/target/release/libnucleus.dylib
+**/*.rs.bk
+Cargo.lock
