@@ -1,3 +1,3 @@
-module NucleusBinding
+module TestFFI
   VERSION = "0.1.0"
 end

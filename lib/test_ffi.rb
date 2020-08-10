@@ -1,7 +1,7 @@
-require "nucleus_binding/version"
+require "test_ffi/version"
 require 'ffi'
 
-module NucleusBinding
+module TestFFI
   class Error < StandardError; end
   # Your code goes here...
 

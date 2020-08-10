@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "nucleus_binding/version"
+require "test_ffi/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "nucleus_binding"
-  spec.version       = NucleusBinding::VERSION
+  spec.name          = "test_ffi"
+  spec.version       = TestFFI::VERSION
   spec.authors       = ["Andy Bell"]
   spec.email         = ["andy.bell.github@gmail.com"]
 
